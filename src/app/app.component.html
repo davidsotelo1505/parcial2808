@@ -21,7 +21,7 @@
         <th>Categoria</th>
       </tr>
       <ng-container  >
-          <tr *ngFor="let elemento of elementos" [ngSwitch]="elemento.transicion">
+          <tr *ngFor="let elemento of elementos" [ngSwitch]="elemento.transicion" [ngStyle]="{color: (elemento.categoria) ? 'blue' : 'green'}">
             <td>{{elemento.nombre}}</td>
             <td>{{elemento.simbolo}}</td>
             <td>{{elemento.atomico}}</td>

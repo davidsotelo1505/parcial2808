@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Parcial2808';
   elementos:any = [
-    {nombre: 'Azufre', simbolo:'S', atomico: '16', peso: '32,065', transicion:2 },
+    {nombre: 'Azufre', simbolo:'S', atomico: '16', peso: '32,065', transicion:2  },
     {nombre: 'Hidrogeno', simbolo:'H', atomico: '1', peso: '15,65', transicion:1},
     {nombre: 'Oro', simbolo:'O', atomico: '79', peso: '10,9', transicion:2},
     {nombre: 'Plata', simbolo:'P', atomico: '41', peso: '13', transicion:1},
